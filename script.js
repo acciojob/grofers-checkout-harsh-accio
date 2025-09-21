@@ -10,9 +10,8 @@ const getSum = () => {
 		sum+=Number(td.textContent);
 });
 	const row = document.createElement('tr')
-	row.innerHTML=`
-	<td></td>
-	<td>${sum}</td>
+	row.innerHTML=` 
+	<td id="ans" >${sum}</td>
 	`;
 	
 	
